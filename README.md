@@ -1,1 +1,1 @@
-$(cat /workspace/dumps/workspace/sorted_readme.md)
+$(cat /workspace/dumps/workspace/sorted_readme.md | base64 -w 0)
